@@ -23,49 +23,12 @@
   <link rel="stylesheet" href="/css/kurento.css">
   <script src="/js/kurento-utils.min.js"></script> <!-- JAR from Maven -->
   <script src="/js/index.js"></script>
-
-  <title>Kurento Java Tutorial - Hello World</title>
 </head>
 
 <body>
-  <header>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse"
-              data-target=".navbar-collapse"></button>
-          <a class="navbar-brand" href=".">Kurento Tutorial</a>
-        </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav navbar-right">
-            <li>
-              <a href="https://github.com/Kurento/kurento-tutorial-java/tree/master/kurento-hello-world">
-                <span class="glyphicon glyphicon-file"></span>Source Code</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </header>
-
   <div class="container">
     <div class="page-header">
-      <h1>Kurento Java Tutorial - Hello World (WebRTC in loopback)</h1>
-      <p>
-        This web application shows a <i>WebRtcEndpoint</i> connected to itself
-        (loopback). Take a look to the <a href="/img/pipeline.png"
-          data-toggle="lightbox" data-title="Hello World Media Pipeline"
-          data-footer="WebRtcEnpoint in loopback">Media Pipeline</a>.
-      </p>
-      <p>
-        To run this demo follow these steps:
-      </p>
-      <ol>
-        <li>Open this page with a WebRTC-compliant browser (Chrome, Firefox, Safari).</li>
-        <li>Click on <i>Start</i> to begin the stream negotiation.</li>
-        <li>Grant access to the camera and microphone.</li>
-        <li>Click on <i>Stop</i> to finish the test.</li>
-      </ol>
+      <h1>WebRTC Mirror</h1>
     </div>
     <div class="row">
       <div class="col-md-5">
@@ -97,32 +60,6 @@
     </div>
   </div>
 
-  <footer>
-    <div class="foot-fixed-bottom">
-      <div class="container text-center">
-        <hr>
-        <div class="row">&copy; 2018 Kurento</div>
-        <div class="row">
-          <div class="col-md-4">
-            <a href="https://www.urjc.es/">
-              <img src="/img/urjc.gif" height="50px"
-                  alt="Universidad Rey Juan Carlos">
-            </a>
-          </div>
-          <div class="col-md-4">
-            <a href="https://www.kurento.org/">
-              <img src="/img/kurento.png" height="50px" alt="Kurento">
-            </a>
-          </div>
-          <div class="col-md-4">
-            <a href="https://www.naevatec.com/">
-              <img src="/img/naevatec.png" height="50px" alt="Naevatec">
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
 </body>
 
 </html>
